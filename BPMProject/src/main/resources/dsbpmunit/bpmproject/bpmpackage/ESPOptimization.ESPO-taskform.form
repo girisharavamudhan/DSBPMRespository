@@ -1,0 +1,158 @@
+
+<form id="362063730">
+<property name="name" value="ESPOptimization.ESPO-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="OilGains" type="InputTextInteger" id="1790376825">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;OilGains (OilGains)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="OilGains"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="1" name="action" type="InputText" id="793739018">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;action (action)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="engineer" type="InputText" id="549664887">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;engineer (engineer)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="engineer"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="estproductiongains" type="InputTextInteger" id="1103680706">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estproductiongains (estproductiongains)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="estproductiongains"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="4" name="field" type="InputText" id="706119831">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field (field)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="field"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="fieldid" type="InputTextInteger" id="183666304">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fieldid (fieldid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fieldid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="6" name="gc" type="InputText" id="1576597148">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gc (gc)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="gc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="7" name="gcid" type="InputTextInteger" id="1020697829">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gcid (gcid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="gcid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="8" name="priority" type="InputText" id="1865059933">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priority (priority)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="priority"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="9" name="targetdate" type="InputText" id="706948820">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;targetdate (targetdate)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="targetdate"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="ticketcategory" type="InputText" id="284343465">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ticketcategory (ticketcategory)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="ticketcategory"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="wellid" type="InputTextInteger" id="1886778533">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wellid (wellid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="wellid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="12" name="wellname" type="InputText" id="1305746256">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wellname (wellname)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="wellname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="welltype" type="InputText" id="787700343">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;welltype (welltype)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="welltype"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="14" name="workflowid" type="InputTextInteger" id="390726072">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;workflowid (workflowid)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="workflowid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="15" name="workflowname" type="InputText" id="1170153815">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;workflowname (workflowname)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="workflowname"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="workflowsubcategory" type="InputText" id="1431017220">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;workflowsubcategory (workflowsubcategory)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="workflowsubcategory"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="FDValidationComments" value="java.lang.String" id="FDValidationComments"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="ISPOSupportRequired" value="java.lang.Boolean" id="ISPOSupportRequired"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="IsFDReviewComplete" value="java.lang.Boolean" id="IsFDReviewComplete"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="IsFDValidationPassed" value="java.lang.Boolean" id="IsFDValidationPassed"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="IsPOActionComplete" value="java.lang.Boolean" id="IsPOActionComplete"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="IsPOValidationPassed" value="java.lang.Boolean" id="IsPOValidationPassed"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="IsRESTAPI" value="java.lang.Boolean" id="IsRESTAPI"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="IsWSGActionComplete" value="java.lang.Boolean" id="IsWSGActionComplete"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="IsWSGValidationPassed" value="java.lang.Boolean" id="IsWSGValidationPassed"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="OilGains" value="java.lang.Integer" id="OilGains"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="POComments" value="java.lang.String" id="POComments"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="WSGValidationComments" value="java.lang.String" id="WSGValidationComments"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="action" value="java.lang.String" id="action"/>
+<dataHolder inputId="" name="#0000A0" type="basicType" outId="engineer" value="java.lang.String" id="engineer"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="estproductiongains" value="java.lang.Integer" id="estproductiongains"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="fdreviewcomments" value="java.lang.String" id="fdreviewcomments"/>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="field" value="java.lang.String" id="field"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="fieldid" value="java.lang.Integer" id="fieldid"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="gc" value="java.lang.String" id="gc"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="gcid" value="java.lang.Integer" id="gcid"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="instancejson" value="java.lang.String" id="instancejson"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="poactioncomments" value="java.lang.String" id="poactioncomments"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="priority" value="java.lang.String" id="priority"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="targetdate" value="java.lang.String" id="targetdate"/>
+<dataHolder inputId="" name="#BBBBBB" type="className" outId="ticket_summary_list" value="java.util.ArrayList" id="ticket_summary_list"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="ticketcategory" value="java.lang.String" id="ticketcategory"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="wellid" value="java.lang.Integer" id="wellid"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="wellname" value="java.lang.String" id="wellname"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="welltype" value="java.lang.String" id="welltype"/>
+<dataHolder inputId="" name="#E9E371" type="basicType" outId="workflowid" value="java.lang.Integer" id="workflowid"/>
+<dataHolder inputId="" name="#FF54A7" type="basicType" outId="workflowname" value="java.lang.String" id="workflowname"/>
+<dataHolder inputId="" name="#BBBBBB" type="basicType" outId="workflowsubcategory" value="java.lang.String" id="workflowsubcategory"/>
+<dataHolder inputId="" name="#B29FE4" type="basicType" outId="wsgactioncomments" value="java.lang.String" id="wsgactioncomments"/>
+</form>

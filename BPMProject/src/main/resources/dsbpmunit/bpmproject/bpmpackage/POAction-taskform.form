@@ -1,0 +1,22 @@
+
+<form id="1501900220">
+<property name="name" value="POAction-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="IsPOActionComplete" type="CheckBox" id="1316643886">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;poaction_out (IsPOActionComplete)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="poaction_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="poactioncomments" type="InputText" id="1562645455">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;poactioncomments_out (poactioncomments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="poactioncomments_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="poaction_out" value="java.lang.Boolean" id="IsPOActionComplete"/>
+<dataHolder inputId="" name="#FBB767" type="basicType" outId="poactioncomments_out" value="java.lang.String" id="poactioncomments"/>
+</form>

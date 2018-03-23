@@ -1,0 +1,30 @@
+
+<form id="1132630214">
+<property name="name" value="FDReview-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="IsFDReviewComplete" type="CheckBox" id="58006228">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdreviewcomplete_out (IsFDReviewComplete)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fdreviewcomplete_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="1" name="OilGains" type="InputTextInteger" id="253528392">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;oilgains_out (OilGains)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="oilgains_out"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="2" name="fdreviewcomments" type="InputText" id="1762378301">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdreviewcomments_out (fdreviewcomments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="fdreviewcomments_out"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="" name="#A7E690" type="basicType" outId="fdreviewcomplete_out" value="java.lang.Boolean" id="IsFDReviewComplete"/>
+<dataHolder inputId="" name="#000000" type="basicType" outId="oilgains_out" value="java.lang.Integer" id="OilGains"/>
+<dataHolder inputId="" name="#FF8881" type="basicType" outId="fdreviewcomments_out" value="java.lang.String" id="fdreviewcomments"/>
+</form>

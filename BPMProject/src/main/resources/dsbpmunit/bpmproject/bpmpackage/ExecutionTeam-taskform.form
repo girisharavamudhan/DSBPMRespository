@@ -1,0 +1,173 @@
+
+<form id="8553778">
+<property name="name" value="ExecutionTeam-taskform.form"/>
+<property name="displayMode" value="default"/>
+<property name="status" value="0"/>
+<field position="0" name="FDValidationComments" type="InputText" id="142337296">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdvalidationcomments_in (FDValidationComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="fdvalidationcomments_in"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="ISPOSupportRequired" type="CheckBox" id="537717717">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;posupportrequired_out (ISPOSupportRequired)quot;"/>
+<property name="readonly" value="false"/>
+<property name="outputBinding" value="posupportrequired_out"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="2" name="IsFDValidationPassed" type="CheckBox" id="1344388015">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fdvalidation_in (IsFDValidationPassed)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="fdvalidation_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="3" name="IsWSGValidationPassed" type="CheckBox" id="1584372917">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wsgvalidation_in (IsWSGValidationPassed)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="wsgvalidation_in"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="4" name="WSGValidationComments" type="InputText" id="1346812384">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wsgcomments_in (WSGValidationComments)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="wsgcomments_in"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="TicketSummary_action" type="InputText" id="497762249">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;action (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/action"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="6" name="TicketSummary_attachment" bag-type="java.lang.String" type="MultipleInput" id="1462321530">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;attachment (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/attachment"/>
+<property name="fieldClass" value="java.util.List"/>
+</field>
+<field position="7" name="TicketSummary_engineer" type="InputText" id="1528504037">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;engineer (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/engineer"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="8" name="TicketSummary_estProductionChange" type="InputTextInteger" id="320632389">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;estProductionChange (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/estProductionChange"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="9" name="TicketSummary_field" type="InputText" id="1562332188">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;field (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/field"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="10" name="TicketSummary_fieldid" type="InputText" id="1920189157">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fieldid (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/fieldid"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="11" name="TicketSummary_gc" type="InputText" id="1592243738">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gc (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/gc"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="12" name="TicketSummary_gcid" type="InputText" id="1083074147">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;gcid (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/gcid"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="13" name="TicketSummary_id" type="InputTextLong" id="649101263">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;id (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/id"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="14" name="TicketSummary_oilGains" type="InputTextInteger" id="624992907">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;oilGains (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/oilGains"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="15" name="TicketSummary_priority" type="InputText" id="1671244058">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;priority (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/priority"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="16" name="TicketSummary_targetdate" type="InputDate" id="518137455">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;targetdate (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/targetdate"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="17" name="TicketSummary_ticketCategory" type="InputText" id="188609976">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ticketCategory (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/ticketCategory"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="18" name="TicketSummary_ticketId" type="InputTextLong" id="207549040">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ticketId (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/ticketId"/>
+<property name="fieldClass" value="java.lang.Long"/>
+</field>
+<field position="19" name="TicketSummary_ticketSubCategory" type="InputText" id="126732442">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;ticketSubCategory (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/ticketSubCategory"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="20" name="TicketSummary_well" type="InputText" id="2015731792">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;well (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/well"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="21" name="TicketSummary_wellType" type="InputText" id="1083522207">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wellType (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/wellType"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="22" name="TicketSummary_wellid" type="InputTextInteger" id="155800196">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;wellid (TicketSummary)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="ticket_in/wellid"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<dataHolder inputId="fdvalidationcomments_in" name="#FF8881" type="basicType" outId="" value="java.lang.String" id="FDValidationComments"/>
+<dataHolder inputId="" name="#9BCAFA" type="basicType" outId="posupportrequired_out" value="java.lang.Boolean" id="ISPOSupportRequired"/>
+<dataHolder inputId="fdvalidation_in" name="#E9E371" type="basicType" outId="" value="java.lang.Boolean" id="IsFDValidationPassed"/>
+<dataHolder inputId="wsgvalidation_in" name="#FF54A7" type="basicType" outId="" value="java.lang.Boolean" id="IsWSGValidationPassed"/>
+<dataHolder inputId="ticket_in" name="#A7E690" type="dataModelerEntry" outId="" value="dsbpmunit.bpmproject.bpmpackage.OptimizationDO" id="TicketSummary"/>
+<dataHolder inputId="wsgcomments_in" name="#000000" type="basicType" outId="" value="java.lang.String" id="WSGValidationComments"/>
+</form>
